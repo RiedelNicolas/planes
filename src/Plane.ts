@@ -28,6 +28,7 @@ export class Plane {
   constructor() {
     this.mesh = this.buildMesh();
     this.mesh.position.set(0, 3, 0);
+    this.mesh.rotation.y = Math.PI;
   }
 
   // ─── Build ───────────────────────────────────────────────────────────────
